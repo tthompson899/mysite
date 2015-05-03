@@ -1,0 +1,122 @@
+/* General CSS*/
+body {
+  background-color: rgb(241, 241, 241);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.2em;
+  margin: 0px auto;
+  min-width: 960px;
+  width: 100%;
+}
+
+a {
+  color: #295266;
+  text-decoration: none;
+  background-color: #1D766F;
+  border-style: solid;
+  border-width: 15px;
+  line-height: 50px; 
+}
+
+h1{
+   background: -webkit-linear-gradient(RED, GREEN, BLUE);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	padding-left: 50px; 
+	text-align: center;
+}
+
+h2 {
+  background: radial-gradient(circle, #52A3CC, #66CCFF, #B2E6FF); 
+  color: #295266;
+  font-size: 2.4em;
+  font-weight: 400;
+  line-height: 110px;
+  margin: 0 0 0.5em 0;
+  text-align: center;
+}
+
+/* Navigation */
+nav li {
+   line-height: 75px;
+  list-style-type: none;
+  float: left;
+}
+nav li a {
+  color: #C2EBFF;
+  margin: 0 10px;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+nav a {
+  border-radius: 6px;
+}
+nav a:hover {
+  background-color: #F0FAFF;
+}
+
+.jump {
+  color: #52A3CC;
+  font-size: 45px;
+  line-height: 80px;
+  position: absolute;
+  text-decoration: none;
+  top: 0;
+}
+.jump.up {
+  left: 15px;
+
+}
+.jump.down {
+  right: 15px;
+}
+
+
+/* Header */
+header{
+	height: 100vh; 
+	background-image: url('http://beachgrooves.com/wp-content/uploads/2014/07/beach.jpg');
+	size: cover;
+	position: center; 
+	margin-bottom: 50px; 
+}
+
+header img{
+   padding:1px;
+   border:1px solid #021a40;
+   position: center;
+
+}
+header nav {
+  float: right;
+  font-size: 1.2em;
+  margin-left: 20px;
+}
+
+/* Main */
+#main section {
+  margin-bottom: 1em;
+  position: relative;
+}
+#main div.wrapper{
+    width: 100%;
+    max-width:1400px;
+    margin: 0 auto;
+}
+
+/* Footer */
+footer nav{
+	float: right;  
+	font-size: 1.2em;
+    border-style: solid;
+	line-height: 5em;
+	min-width: 500px;
+    width: 100%;
+	-webkit-border-image: -webkit-gradient(linear, left top, left bottom,
+	 from(#336680), to(#66CCFF), color-stop(0.5, #B2E6FF), color-stop(0.5, #F0FAFF)) 
+     21 30 30 21;
+
+
+}
+
