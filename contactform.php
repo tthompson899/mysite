@@ -17,8 +17,8 @@ $name = $_POST["fullname"];
 $email = $_POST["email"];
 $message = $_POST["message"];
 
-mail('tiffany@tthompson899.net', 'New form submission',"New form submission: 
-	Name: $name, Email: $email, Message: $message");
+mail('tiffany@tthompson899.net', 'New form submission',"You have a New Message: 
+	Name: $name, \n Email: $email, \n Message: $message");
 
 header('Location: thanks.html');
 

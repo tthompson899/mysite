@@ -140,6 +140,10 @@ header nav {
   text-align: center;
 }
 
+.social li{
+  text-align: center;
+  list-style-type: none;
+}
 /* Footer */
 
 footer nav{
