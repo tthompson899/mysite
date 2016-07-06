@@ -1,0 +1,88 @@
+
+/* General CSS*/
+
+body{
+  background-color: #F1F1F1;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.2em;
+  margin: 0px;
+  width: 100%;
+
+}
+
+.jumbotron .h1,.jumbotron h1{
+    color: #52A3CC;
+	font-size: 5em;
+    font-family: cursive;
+    }
+
+ .container .jumbotron,.container-fluid .jumbotron{
+        padding-right:15px;
+        padding-left:15px;
+        border-radius:6px;
+        }
+.jumbotron .container{
+    max-width:100%
+    }@media screen and (min-width:768px)
+    {.jumbotron{padding-top:48px;padding-bottom:48px}
+    .container .jumbotron,.container-fluid .jumbotron{
+        padding-right:60px;padding-left:60px;}.jumbotron .h1,.jumbotron h1{font-size:63px;}}
+
+.jumbotron{
+    padding-top:30px;
+    padding-bottom:30px;
+    margin-bottom:30px;
+    color:inherit;
+    background-color:#eee;
+    }
+
+ .jumbotron .h1,.jumbotron h1{
+        color:inherit;
+        }
+.jumbotron p{
+    margin-bottom:15px;
+    font-size:21px;
+    font-weight:200;
+    }
+.jumbotron>hr{
+    border-top-color:#d5d5d5;
+    }
+
+.container .jumbotron,.container-fluid .jumbotron{
+    padding-right:15px;
+    padding-left:15px;
+    border-radius:6px;
+    }
+
+  ul li{
+    list-style:none;
+}
+
+.skills{
+    padding-right:15px;
+    padding-left:15px;
+    margin-right:auto;
+    margin-left:auto
+    }
+
+  .know-how{
+    display: inline-block;
+    margin-left: 100px; 
+  }
+
+ .technical{
+  display: inline-block;
+  margin-left: 294px;
+ }
+
+@media (min-width:768px){
+    .skills{width:750px}}@media (min-width:992px){
+        .skills{width:970px}}@media (min-width:1200px)
+          {.skills{width:1170px}
+          }
+
+   .images{
+   height: 300px;
+   width: 500px;
+ }
