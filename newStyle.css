@@ -11,6 +11,11 @@ body{
 
 }
 
+img{
+    margin-top: 32px;
+    border: 10px solid black;
+}
+
 .jumbotron .h1,.jumbotron h1{
     color: #52A3CC;
 	font-size: 5em;
@@ -68,7 +73,7 @@ body{
 
   .know-how{
     display: inline-block;
-    margin-left: 100px; 
+    margin-left: 100px;
   }
 
  .technical{
